@@ -10,7 +10,7 @@ In particular, this relevant section on creating a new instance of the project:
 
 
 
-## Potential Folder Structure
+## Folder Structure
 
 STEELHEAD
 
@@ -24,6 +24,12 @@ STEELHEAD
 
 ├── STADEM
 
-└── SthdReddsWenatchee
+├── SthdReddsWenatchee
+
+└── external_data
+   
+    ├── raw_data
+    
+    └── derived_data
 
 Note: some file paths within DabomPriestRapidsSthd and SthdReddsWenatchee may need to be updated, since those projects assume that they are the root directory. 
