@@ -6,7 +6,7 @@ General information on `renv` can be found here: https://rstudio.github.io/renv/
 
 In particular, this relevant section on creating a new instance of the project:
 
-"After installing the package and checking that your code works, you should call renv::snapshot() to record the latest versions in your lockfile. If you’re collaborating with others, you’ll need to commit those changes to git, and let them know that you’ve updated the lockfile and they should call renv::restore() when they’re next working on a package."
+"After installing the package and checking that your code works, you should call `renv::snapshot()` to record the latest versions in your lockfile. If you’re collaborating with others, you’ll need to commit those changes to git, and let them know that you’ve updated the lockfile and they should call `renv::restore()` when they’re next working on a package."
 
 
 
@@ -42,9 +42,10 @@ Note: some file paths within DabomPriestRapidsSthd and SthdReddsWenatchee may ne
 
 
 
-## Instructions
+## Instructions for a new install
 
  1. Clone the STEELHEAD mega repository.
  2. Clone the analysis repositories (i.e., DabomPriestRapidsSthd and SthdReddsWenatchee) and the underlying packages (e.g., DABOM, PITcleanr) into the STEELHEAD mega repository.
  3. Open the STEELHEAD Project.
- 4. Use `renv::status` to check the status of the repository. 
+ 4. Use `renv::status` to check the status of the repository.
+ 5. Then use `renv::restore()` to update or install the correction package versions. 
