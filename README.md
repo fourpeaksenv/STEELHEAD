@@ -20,9 +20,19 @@ STEELHEAD
 
 ├── external_data
    
-    ├── raw_data
+    ├── derived_data
     
-    └── derived_data
+    └── raw_data
+
+       ├── STHD_Removals.xlsx
+
+       ├── STHD_Surveyor_Experience.xlsx
+
+       ├── STHD_UC Brood Collections_2011 to current.xlsx
+       
+       ├── STHD_Wenatchee_Redd_Surveys.xlsx
+
+       └── UC_STHD_Model_Output.xlsx
 
 ├── output
 
