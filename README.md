@@ -18,18 +18,33 @@ STEELHEAD
 
 ├── DabomPriestRapidsSthd
 
-├── PITcleanr
-
-├── sroem
-
-├── STADEM
-
-├── SthdReddsWenatchee
-
-└── external_data
+├── external_data
    
     ├── raw_data
     
     └── derived_data
 
+├── output
+
+├── PITcleanr
+
+├── renv
+
+├── sroem
+
+├── STADEM
+
+└── SthdReddsWenatchee
+
+
+
 Note: some file paths within DabomPriestRapidsSthd and SthdReddsWenatchee may need to be updated, since those projects assume that they are the root directory. 
+
+
+
+## Instructions
+
+ 1. Clone the STEELHEAD mega repository.
+ 2. Clone the analysis repositories (i.e., DabomPriestRapidsSthd and SthdReddsWenatchee) and the underlying packages (e.g., DABOM, PITcleanr) into the STEELHEAD mega repository.
+ 3. Open the STEELHEAD Project.
+ 4. Use `renv::status` to check the status of the repository. 
